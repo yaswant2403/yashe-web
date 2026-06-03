@@ -3,8 +3,9 @@ locale = 'en-us'
 title = 'Yash Ejjagiri'
 theme = 'typo'
 
-# Google analytics code
-googleAnalytics = "G-JM14ZQQSWS"
+[services]
+  [services.googleAnalytics]
+    id = "G-JM14ZQQSWS"
 
 [taxonomies]
 tag = 'tags'
