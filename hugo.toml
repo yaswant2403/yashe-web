@@ -1,0 +1,84 @@
+baseURL = 'https://example.org/'
+locale = 'en-us'
+title = 'Yash Ejjagiri'
+theme = 'typo'
+
+# Google analytics code
+googleAnalytics = "G-JM14ZQQSWS"
+
+[taxonomies]
+tag = 'tags'
+
+[params]
+# Meta description
+description = "A Personal Website"
+
+# Appearance settings
+theme = 'auto'
+colorPalette = 'default'
+hideHeader = false
+
+# Intro on main page, content is markdown
+homeIntroTitle = 'About Me'
+homeIntroContent = """
+I am Yash Ejjagiri, a Research Assistant in Professor Xin Liu's AstroAI group at the National Center for Supercomputing Applications located in the University of Illinois Urbana-Champaign (UIUC). 
+I have spent two and a half years developing DeepDISC, a deep-learning framework for joint detection, deblending, classification, and photometric redshift estimation in next-generation astronomical surveys. 
+
+In May 2025, I graduated from UIUC with a B.S. in Computer Science and Astronomy with minors in Physics and Mathematics.
+
+I am broadly interested in applying machine learning to large-scale astrophysical surveys, with a particular interest in field-level inference, simulation-based inference, and multi-scale emulators for cosmology.
+
+Here is my [CV].
+"""
+
+# Collection to display on home
+homeCollectionTitle = 'Posts'
+homeCollection = 'posts'
+
+# Lists parameters
+paginationSize = 100
+listSummaries = true
+listDateFormat = '2 Jan 2006'
+
+# Breadcrumbs
+[params.breadcrumbs]
+enabled = true
+showCurrentPage = true
+home = "Home"
+
+# Social icons
+[[params.social]]
+name = "linkedin"
+url = "https://linkedin.com/in/yaswant-ejjagiri"
+
+[[params.social]]
+name = "github"
+url = "https://github.com/yaswant2403"
+
+# Main menu pages
+[[params.menu]]
+name = "home"
+url = "/"
+
+[[params.menu]]
+name = "posts"
+url = "/posts"
+
+[[params.menu]]
+name = "about"
+url = "/about"
+
+# Syntax highlight on code blocks
+[markup]
+[markup.highlight]
+noClasses = false
+
+# Giscus comments
+[params.giscus]
+enable = false
+repo = "user/repo"
+repoid = "repoId"
+category = "General"
+categoryid = "categoryId"
+mapping = "pathname"
+theme = "preferred_color_scheme"
