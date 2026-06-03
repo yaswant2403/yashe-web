@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://yashe.me/'
 locale = 'en-us'
 title = 'Yash Ejjagiri'
 theme = 'typo'
@@ -82,3 +82,7 @@ category = "General"
 categoryid = "categoryId"
 mapping = "pathname"
 theme = "preferred_color_scheme"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
