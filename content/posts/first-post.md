@@ -17,5 +17,3 @@ hideBackToTop: false
 Hello! This is my first ever post. I'm excited to flesh out this website with my research, projects, and any musings I want to share with the world.
 
 Alongside the Typo theme, I've been heavily inspired by https://smdp26.github.io/ as I really like their layout.
-
-Hello love!
