@@ -29,7 +29,7 @@ In May 2025, I graduated from UIUC with a B.S. in Computer Science and Astronomy
 
 I am broadly interested in applying machine learning to large-scale astrophysical surveys, with a particular interest in field-level inference, simulation-based inference, and multi-scale emulators for cosmology.
 
-Here is my [CV].
+Here is my [CV](/cv.pdf).
 """
 
 # Collection to display on home
@@ -68,6 +68,10 @@ url = "/posts"
 [[params.menu]]
 name = "about"
 url = "/about"
+
+[[params.menu]]
+name = "cv"
+url = "/cv.pdf"
 
 # Syntax highlight on code blocks
 [markup]

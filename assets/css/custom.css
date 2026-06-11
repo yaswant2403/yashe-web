@@ -1,0 +1,26 @@
+.header-menu {
+  align-items: center;
+}
+.header-menu p {
+  margin-bottom: 0;
+}
+.theme-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--content-primary);
+  padding: 0;
+  margin-top: 0;
+  margin-left: auto;
+  display: inline-flex;
+  align-items: center;
+}
+.theme-toggle:hover {
+  color: var(--content-secondary);
+}
+/* dark mode (default): show sun, hide moon */
+.theme-toggle .icon-moon { display: none; }
+.theme-toggle .icon-sun  { display: inline-flex; }
+/* light mode: show moon, hide sun */
+html.light .theme-toggle .icon-sun  { display: none; }
+html.light .theme-toggle .icon-moon { display: inline-flex; }
