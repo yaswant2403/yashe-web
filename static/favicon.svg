@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <style>
+      @font-face {
+        font-family: "EduNSW";
+        src: url('/fonts/Edu_NSW_ACT_Cursive/EduNSWACTCursive-Bold.ttf') format('truetype');
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <rect width="32" height="32" rx="0" fill="#0f172a"/>
+  <text
+    x="16"
+    y="16"
+    font-family="EduNSW, cursive"
+    font-size="22"
+    font-weight="700"
+    fill="#f1f5f9"
+    text-anchor="middle">y</text>
+</svg>
