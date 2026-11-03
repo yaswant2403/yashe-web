@@ -66,12 +66,12 @@ name = "cv"
 url = "/cv.pdf"
 
 [[params.menu]]
-name = "posts"
-url = "/posts"
-
-[[params.menu]]
 name = "talks"
 url = "/talks"
+
+[[params.menu]]
+name = "posts"
+url = "/posts"
 
 [[params.menu]]
 name = "about"
