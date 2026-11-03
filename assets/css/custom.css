@@ -24,3 +24,13 @@
 /* light mode: show moon, hide sun */
 html.light .theme-toggle .icon-sun  { display: none; }
 html.light .theme-toggle .icon-moon { display: inline-flex; }
+
+/* Tags on post/talk pages: smaller, muted */
+.single-tags a {
+  font-size: 0.95rem;
+  color: var(--content-secondary);
+  opacity: 0.8;
+}
+.single-tags a:hover {
+  opacity: 1;
+}
