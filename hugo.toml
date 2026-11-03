@@ -62,6 +62,10 @@ name = "home"
 url = "/"
 
 [[params.menu]]
+name = "cv"
+url = "/cv.pdf"
+
+[[params.menu]]
 name = "posts"
 url = "/posts"
 
@@ -73,9 +77,6 @@ url = "/talks"
 name = "about"
 url = "/about"
 
-[[params.menu]]
-name = "cv"
-url = "/cv.pdf"
 
 # Syntax highlight on code blocks
 [markup]
