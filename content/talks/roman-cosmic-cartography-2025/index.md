@@ -21,4 +21,4 @@ showTags: true
 
 The Space Telescope Science Institute (STScI) held the symposium [Cosmic Cartography with Roman: Advances in Galaxy Structures, Distributions, Dark Matter, and Dark Energy](https://www.stsci.edu/contents/events/stsci/2025/july/cosmic-cartography-with-roman-advances-in-galaxy-structures-distributions-dark-matter-dark-energy) on July 14–18, 2025. It was hosted in-person at STScI in Baltimore, MD, with virtual attendance and free streaming available. The symposium focused on the intersection of dark energy and dark matter with galaxy formation and evolution.
 
-At the symposium, I presented my work with Prof. Xin Liu and Dr. Grant Merz at UIUC.
+At the symposium, I presented my work done as an undergraduate with Prof. Xin Liu and Dr. Grant Merz at UIUC.
