@@ -3,6 +3,7 @@ title: "Cosmic Cartography with Roman: Advances in Galaxy Structures, Distributi
 author: "Yash E"
 authorAvatarPath: "/avatar_sq.jpg"
 date: "2025-07-14"
+location: "Baltimore, MD"
 summary: "DeepDISC Roman + Rubin LSST deblending @ STScI Cosmic Cartography with Roman"
 readTime: false
 tags: ["DeepDISC", "Deblending", "UIUC"]

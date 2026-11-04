@@ -3,6 +3,7 @@ title: "247th Meeting of the American Astronomical Society"
 author: "Yash E"
 authorAvatarPath: "/avatar_sq.jpg"
 date: "2026-01-04"
+location: "Phoenix, AZ"
 summary: "DeepDISC Roman + Rubin LSST deblending @ AAS 247"
 readTime: false
 tags: ["DeepDISC", "Deblending", "UIUC"]

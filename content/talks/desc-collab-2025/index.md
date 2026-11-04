@@ -3,6 +3,7 @@ title: 'Dark Energy Science Collaboration Meeting 2025'
 author: "Yash E"
 authorAvatarPath: "/avatar_sq.jpg"
 date: "2025-07-21"
+location: "Champaign, IL"
 summary: "DeepDISC Roman + Rubin LSST deblending @ LSST DESC July 2025 Collaboration Meeting"
 readTime: false
 tags: ["DeepDISC", "Deblending", "UIUC"]

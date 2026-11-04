@@ -3,6 +3,7 @@ title: "JSI 2026 Workshop: A NICER Legacy: Neutron Stars, Black Holes, and Time-
 author: "Yash E"
 authorAvatarPath: "/avatar_sq.jpg"
 date: "2026-11-02"
+location: "Annapolis, MD"
 summary: "2D Energy Resolved NN emulators @ JSI NICER Workshop"
 readTime: false
 tags: ["NASA", "ML Emulators", "Neutron Stars"]

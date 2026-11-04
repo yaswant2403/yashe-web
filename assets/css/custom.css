@@ -34,3 +34,8 @@ html.light .theme-toggle .icon-moon { display: inline-flex; }
 .single-tags a:hover {
   opacity: 1;
 }
+/* Location under the date in talk lists */
+.line-location {
+  color: var(--content-secondary);
+  font-size: 0.85em;
+}

@@ -3,6 +3,7 @@ title: "Center for Decoding the Universe Annual Conference: Data-Driven Discover
 author: "Yash E"
 authorAvatarPath: "/avatar_sq.jpg"
 date: "2025-06-05"
+location: "Stanford, CA"
 summary: "DeepDISC Roman + Rubin LSST deblending @ Stanford CDU Annual Conference"
 readTime: false
 tags: ["DeepDISC", "Deblending", "UIUC"]

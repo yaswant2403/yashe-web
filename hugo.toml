@@ -22,14 +22,17 @@ hideHeader = false
 # Intro on main page, content is markdown
 homeIntroTitle = 'About Me'
 homeIntroContent = """
-I am Yash Ejjagiri, a Research Assistant in Professor Xin Liu's AstroAI group at the National Center for Supercomputing Applications located in the University of Illinois Urbana-Champaign (UIUC). 
-I have spent two and a half years developing DeepDISC, a deep-learning framework for joint detection, deblending, classification, and photometric redshift estimation in next-generation astronomical surveys. 
+I am Yash Ejjagiri, a SURA/CRESST II Research Assistant at NASA Goddard Space Flight Center (GSFC), where I develop neural-network emulators of pulse-profile models for NICER X-ray data to constrain neutron-star mass, radius, and magnetic field geometries.
 
-In May 2025, I graduated from UIUC with a B.S. in Computer Science and Astronomy with minors in Physics and Mathematics.
+Before GSFC, I spent three years in Professor Xin Liu's AstroAI group at the National Center for Supercomputing Applications (NCSA) at University of Illinois Urbana-Champaign (UIUC), developing [DeepDISC](https://github.com/grantmerz/deepdisc), a deep-learning framework for joint detection, deblending, classification, and photometric redshift estimation in next-generation surveys, with a focus on [combining Roman and Rubin LSST imaging](https://github.com/grantmerz/DeepDISC_Roman_Rubin/). 
+
+I am also a research contributor in EleutherAI's Summer of Open AI Research, testing whether astronomy foundation models encode physical galaxy properties.
+
+In May 2025, I graduated from UIUC with a B.S. in Computer Science + Astronomy, with minors in Physics and Mathematics.
 
 I am broadly interested in applying machine learning to large-scale astrophysical surveys, with a particular interest in field-level inference, simulation-based inference, and multi-scale emulators for cosmology.
 
-Here is my [CV](/cv.pdf).
+Here is my [CV](/cv.pdf), and feel free to check out my [presentations and talks](/talks).
 """
 
 # Collection to display on home
@@ -76,7 +79,6 @@ url = "/posts"
 [[params.menu]]
 name = "about"
 url = "/about"
-
 
 # Syntax highlight on code blocks
 [markup]

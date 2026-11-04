@@ -3,6 +3,7 @@ title: '{{ replace .File.ContentBaseName "-" " " | title }}'
 author: "Yash E"
 authorAvatarPath: "/avatar_sq.jpg"
 date: '{{ .Date }}'
+location: "City, ST"
 summary: "Short one-line summary shown in the talks list"
 readTime: false
 tags: []
