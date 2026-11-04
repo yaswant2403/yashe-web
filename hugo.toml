@@ -36,11 +36,11 @@ Here is my [CV](/cv.pdf), and feel free to check out my [presentations and talks
 """
 
 # Collection to display on home
-homeCollectionTitle = 'Posts'
-homeCollection = 'posts'
+homeSections = ['talks', 'posts']  # order shown on home page
+homeListSize = 3                   # newest N per section, then an "all …" link
 
 # Lists parameters
-paginationSize = 100
+paginationSize = 10
 listSummaries = true
 listDateFormat = '2 Jan 2006'
 

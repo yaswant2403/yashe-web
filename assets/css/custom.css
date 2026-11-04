@@ -39,3 +39,25 @@ html.light .theme-toggle .icon-moon { display: inline-flex; }
   color: var(--content-secondary);
   font-size: 0.85em;
 }
+
+/* Home page sections: "all …" link, aligned with titles (date column is 120px) */
+.see-all {
+  margin-top: 0.75rem;
+  padding-left: 120px;
+  font-size: small;
+}
+.see-all-arrow {
+  width: 1em;
+  height: 1em;
+  margin-left: 0.3em;
+  vertical-align: -0.15em;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+/* No footer-sized gap between stacked list sections */
+.list-container:has(+ .list-container) {
+  padding-bottom: 0;
+}

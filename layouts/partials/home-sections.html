@@ -1,0 +1,20 @@
+{{/* Home page sections. For each section in site.Params.homeSections, show
+     the newest homeListSize items, then an "all …" link if there are more. */}}
+{{ $size := site.Params.homeListSize | default 3 }}
+{{ range site.Params.homeSections }}
+  {{ $sec := site.GetPage (printf "/%s" .) }}
+  {{ $pages := where site.RegularPages "Section" . }}
+  {{ with $pages }}
+  <div class="list-container">
+    <h1>{{ $sec.Title }}</h1>
+    {{ range first $size . }}
+    {{ partial "post-entry.html" . }}
+    {{ end }}
+    {{ if gt (len .) $size }}
+    <p class="see-all">
+      <a href="{{ $sec.RelPermalink }}">all {{ lower $sec.Title }}<svg class="see-all-arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    </p>
+    {{ end }}
+  </div>
+  {{ end }}
+{{ end }}
